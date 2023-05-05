@@ -5,10 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test_wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="128,374,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.32,3.609"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="263,384,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.288,-0.446"/>
-
-    </Grid>
+        Title="Програма тестування" Height="450" Width="800">
+    <Grid/>
 </Window>
