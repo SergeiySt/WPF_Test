@@ -1,0 +1,16 @@
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\bin\Debug\Test_wpf.exe.config
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\bin\Debug\Test_wpf.exe
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\bin\Debug\Test_wpf.pdb
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.csproj.AssemblyReference.cache
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.csproj.SuggestedBindingRedirects.cache
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\MainWindow.g.cs
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\App.g.cs
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf_MarkupCompile.cache
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf_MarkupCompile.lref
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\MainWindow.baml
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.g.resources
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.Properties.Resources.resources
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.csproj.GenerateResource.cache
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.csproj.CoreCompileInputs.cache
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.exe
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.pdb

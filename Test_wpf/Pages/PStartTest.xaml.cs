@@ -13,17 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Test_wpf
+namespace Test_wpf.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for PStartTest.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PStartTest : Page
     {
-        public MainWindow()
+        public PStartTest()
         {
             InitializeComponent();
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
