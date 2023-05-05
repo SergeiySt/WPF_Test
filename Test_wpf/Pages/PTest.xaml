@@ -9,11 +9,13 @@
       Title="PTest">
 
     <Grid>
-        <Label Content="Зараз тестування проходить:" HorizontalAlignment="Left" Margin="462,10,0,0" VerticalAlignment="Top" Foreground="#FF1D65F3"/>
-        <TextBlock x:Name="textFull" HorizontalAlignment="Left" Margin="635,15,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <Button x:Name="buttonSubmit" Content="Submit" HorizontalAlignment="Left" Margin="505,346,0,0" VerticalAlignment="Top" Click="buttonSubmit_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="569,346,0,0" VerticalAlignment="Top"/>
-        <StackPanel x:Name="AnswersStackPanel" Margin="40,77,483,205"/>
-        <TextBlock x:Name="QuestionTextBlock"  HorizontalAlignment="Left" Margin="40,48,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Зараз тестування проходить:" HorizontalAlignment="Left" Margin="358,10,0,0" VerticalAlignment="Top" Foreground="#FF1D65F3" FontSize="16"/>
+        <TextBlock x:Name="textFull" HorizontalAlignment="Left" Margin="584,15,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="buttonSubmit" Content="Далі" HorizontalAlignment="Center" Margin="0,372,0,0" VerticalAlignment="Top" Click="buttonSubmit_Click" FontSize="18" Width="124"/>
+
+        <StackPanel x:Name="AnswersStackPanel" Margin="40,136,350,146" RenderTransformOrigin="0.041,0.476" HorizontalAlignment="Left"/>
+        <TextBlock x:Name="QuestionTextBlock"  HorizontalAlignment="Left" Margin="40,91,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="22"/>
+        <Image HorizontalAlignment="Left" Height="250" Margin="489,136,0,0" VerticalAlignment="Top" Width="281" Source="/Picture/pngwing.com.png"/>
+
     </Grid>
 </Page>

@@ -117,6 +117,26 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Picture\iconfinder-957.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Picture\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Picture\pngwing444.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Picture\pngwin9999.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Picture\pngw99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Picture\pngw88.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Picture\p444.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

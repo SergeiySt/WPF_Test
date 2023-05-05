@@ -6,16 +6,46 @@
       xmlns:local="clr-namespace:Test_wpf.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="PStartTest">
-
+      Title="PStartTest" >
+    <Page.Resources>
+        <Style TargetType="{x:Type TextBox}" x:Key="UnderlinedTextBoxStyle">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Grid>
+                            <Rectangle x:Name="PART_Border" StrokeThickness="1" Stroke="#FF2455CA" Fill="Transparent"/>
+                            <ScrollViewer Margin="0" x:Name="PART_ContentHost" Background="Transparent" Foreground="{TemplateBinding Foreground}" Padding="{TemplateBinding Padding}"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="PART_Border" Property="Stroke" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
     <Grid>
-        <Label Content="Ласкаво просимо до тестування на різну тематику!" HorizontalAlignment="Center" Margin="0,43,0,0" VerticalAlignment="Top"/>
-        <Label Content="Перед початком треба ввести своє ім'я та прізвище." HorizontalAlignment="Center" Margin="0,74,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBoxName" HorizontalAlignment="Center" Margin="0,139,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBoxSurname" HorizontalAlignment="Center" Margin="0,162,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <Label Content="Ім'я:" HorizontalAlignment="Left" Margin="302,135,0,0" VerticalAlignment="Top"/>
-        <Label Content="Прізвище:" HorizontalAlignment="Left" Margin="269,158,0,0" VerticalAlignment="Top"/>
-        <Button Content="Почати!" HorizontalAlignment="Center" VerticalAlignment="Center" Click="buttonBegin_Click"/>
+        <Grid.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="#FF8DD851" Offset="0.797"/>
+                <GradientStop Color="#FFC0E27A" Offset="0.504"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <Label Content="Ласкаво просимо до тестування на різну тематику!" HorizontalAlignment="Center" Margin="0,43,0,0" VerticalAlignment="Top" Foreground="#FF2455CA" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Перед початком треба ввести своє ім'я та прізвище." HorizontalAlignment="Center" Margin="0,82,0,0" VerticalAlignment="Top" Foreground="#FF2455CA" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="textBoxName" Style="{StaticResource UnderlinedTextBoxStyle}" HorizontalAlignment="Center" Margin="0,176,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="16" Foreground="#FF2455CA"/>
+        <TextBox x:Name="textBoxSurname" Style="{StaticResource UnderlinedTextBoxStyle}" HorizontalAlignment="Center" Margin="0,204,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2455CA"/>
+        <Label Content="Ім'я:" HorizontalAlignment="Left" Margin="292,169,0,0" VerticalAlignment="Top" FontSize="16" Foreground="#FF2455CA" RenderTransformOrigin="0.418,0.607"/>
+        <Label Content="Прізвище:" HorizontalAlignment="Left" Margin="248,199,0,0" VerticalAlignment="Top" FontSize="16" Foreground="#FF2455CA"/>
+        <Button Content="Почати!" HorizontalAlignment="Center" VerticalAlignment="Top" Click="buttonBegin_Click" Margin="0,248,0,0" Background="{x:Null}" Height="37" Width="120" FontSize="16" FontWeight="Bold" Foreground="#FFEF3A1D" BorderBrush="#FF2455CA"/>
 
     </Grid>
 </Page>

@@ -28,7 +28,6 @@ namespace Test_wpf
         {
             InitializeComponent();
             MainFrame.Navigate(new PStartTest());
-            //MainFrame.Navigate(new PTest());
         }
     }
 }
