@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Test_wpf.Pages
 {
     /// <summary>
@@ -25,9 +26,17 @@ namespace Test_wpf.Pages
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void buttonBegin_Click(object sender, RoutedEventArgs e)
         {
-
+            if (string.IsNullOrEmpty(textBoxName.Text) || string.IsNullOrEmpty(textBoxSurname.Text))
+            {
+                MessageBox.Show("Пожалуйста, заполните все поля.");
+            }
+            else
+            {
+                CUsers user5 = new CUsers(textBoxName.Text, textBoxSurname.Text);
+                NavigationService.Navigate(new PTest(user5));
+            }
         }
     }
 }

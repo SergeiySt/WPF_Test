@@ -6,5 +6,7 @@
         xmlns:local="clr-namespace:Test_wpf"
         mc:Ignorable="d"
         Title="Програма тестування" Height="450" Width="800">
-    <Grid/>
+    <Grid>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
 </Window>
