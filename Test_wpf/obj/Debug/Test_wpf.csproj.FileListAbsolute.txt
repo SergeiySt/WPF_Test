@@ -14,3 +14,9 @@ D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.cspr
 D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.csproj.CoreCompileInputs.cache
 D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.exe
 D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Test_wpf.pdb
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Pages\PStartTest.g.cs
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Pages\PTest.g.cs
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Pages\PStartTest.baml
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Pages\PTest.baml
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Pages\PResult.g.cs
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\WPF_Test\Test_wpf\obj\Debug\Pages\PResult.baml
