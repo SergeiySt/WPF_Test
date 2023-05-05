@@ -30,7 +30,7 @@ namespace Test_wpf.Pages
         {
             if (string.IsNullOrEmpty(textBoxName.Text) || string.IsNullOrEmpty(textBoxSurname.Text))
             {
-                MessageBox.Show("Пожалуйста, заполните все поля.");
+                MessageBox.Show("Будь ласка, заповніть усі поля!.", "Увага", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
             else
             {

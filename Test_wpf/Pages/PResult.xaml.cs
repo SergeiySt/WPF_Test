@@ -31,9 +31,7 @@ namespace Test_wpf.Pages
             this.currentQuestion = currentQuestion;
             this.score = score;
             this.users2 = users2;
-           this.questions2 = questions;
-
-            //    textResult.Text = $"Поздравляем, {user.Name} {user.Surname}! Вы ответили правильно на {score} вопросов из {questions.Count}. Оценка: {GetGrade(score, questions.Count)}";
+            this.questions2 = questions;
 
             fullName5.Text = $"{users2.Name} {users2.Surname}";
             textblockScore.Text = $"{score}";
@@ -46,26 +44,38 @@ namespace Test_wpf.Pages
 
         private string GetGrade()
         {
-            // Определим оценку в зависимости от количества правильных ответов
             double percentage = (double)score / questions2.Count * 100;
 
             if (percentage >= 90)
             {
+                imageBox.Source = new BitmapImage(new Uri("/Picture/p444.png", UriKind.Relative));
+                textblockGrade.Foreground = Brushes.Green;
                 return "Відмінно!";
             }
             else if (percentage >= 70)
             {
+                imageBox.Source = new BitmapImage(new Uri("/Picture/pngw88.png", UriKind.Relative));
+                textblockGrade.Foreground = Brushes.Blue;
                 return "Добре!";
             }
             else if (percentage >= 50)
             {
+                imageBox.Source = new BitmapImage(new Uri("/Picture/pngw99.png", UriKind.Relative));
+                textblockGrade.Foreground = Brushes.Orange;
                 return "Задовільно!";
             }
             else
             {
+                imageBox.Source = new BitmapImage(new Uri("/Picture/pngwing444.png", UriKind.Relative));
+                textblockGrade.Foreground = Brushes.Red;
                 return "Незадовільно";
             }
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

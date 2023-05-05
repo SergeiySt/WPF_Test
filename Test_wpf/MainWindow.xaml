@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test_wpf"
         mc:Ignorable="d"
-        Title="Програма тестування" Height="450" Width="800">
+        ResizeMode="NoResize"
+        Title="Програма тестування" Height="450" Width="800" WindowStartupLocation="CenterScreen" Icon="/Picture/iconfinder-957.ico">
     <Grid>
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
